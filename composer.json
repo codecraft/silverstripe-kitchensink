@@ -1,0 +1,27 @@
+{
+    "name": "jakxnz/silverstripe-kitchensink",
+    "description": "A kitchen sink for Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "authors": [
+        {
+            "name": "Jackson Darlow",
+            "email": "jackson@codecraft.nz"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeCraft\\KitchenSink\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "extra": {
+        "installer-name": "kitchensink"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
